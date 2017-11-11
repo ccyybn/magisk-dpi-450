@@ -1,4 +1,5 @@
-# 这是一个简单的Magisk模块示例
+# 一个简单的Magisk模块示例
+修改DPI为450
 
 ## module.prop
 模块的基本信息文件
@@ -30,7 +31,7 @@ Set to true if you need late_start service script
 挂载好模块，启用magisk hide后执行
 
 ### system.prop
-修改系统build.prop
+修改系统build.prop，此模块修改 "ro.sf.lcd_density=450"
 
 ## META-INF
 默认脚本，不用改
